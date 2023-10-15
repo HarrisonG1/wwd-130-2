@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
     text-align: center;
     color: #AECD8E;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -19,21 +22,36 @@ nav a{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #FCD7AD;
 }
 body{
     background-color: #AECD8E;
+    font-family: "Nunito", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 #hero-img{
     width: 100%;
+}
+h2 {
+    font-family: "Anton",Georgia, Arial;
+    margin: 0;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 header{
     background-color: #40444F;
@@ -48,12 +66,17 @@ nav a:hover{
 }
 .msg{
     background-color: #40444F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #40444F;
 }
 .home-title{
-    color:  black   ;
+    color:  black;
+    font-family: "Anton",Georgia, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -62,12 +85,29 @@ h4{
     color: black;
     background-color: #FCD7AD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .msg h2{
     color: black;
+    font-family: "Anton",Georgia, Arial;
 }
 .msg p{
-    color: black
+    color: #AECD8E;
+    font-size: .8em;
+    padding-bottom: 15 px;
+}
+.card-img{
+    border: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
@@ -81,4 +121,7 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+}
+footer .social img{
+    padding-top: 15px;
 }
